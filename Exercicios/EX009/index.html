@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>tente abrir esse site em vários dispositivos diferentes ou tente mudar o tamanho do navegador</p>
+    
+    <!-- aqui a imagem irá carregar de acordo com o tamnho da tela -->
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="">
+    </picture>
+
+    <h1>reproduzindo audio</h1>
+    <p> vamos aprender a reproduzir audio</p>
+    
+    <!-- a tag audio serve para inserir um audio -->
+    <!-- o paramentro controls dará a opção para o usuario dar play pausar diminuir ou aumentar o volume -->
+
+    <audio 
+    
+        src="midia/happy-mistake.mp3" controls loop>
+
+
+
+    </audio>
+
+</body>
+</html>
