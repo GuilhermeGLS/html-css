@@ -12,6 +12,14 @@
 
         table{
             width: 500px;
+            position: relative;
+        }
+
+        caption{
+            font-size: 1em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgrey;
         }
 
         td, th{
@@ -19,9 +27,19 @@
             padding: 10px;
         }
 
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
+
         thead, tfoot{
             background-color: gray;
             color:white;
+        }
+
+        tbody>tr:nth-child(2n){
+            background-color: lightgray;
         }
 
         .num{
@@ -34,6 +52,7 @@
     <h1>uso de tabelas grander</h1>
 <!-- anatomia para tabelas grandes 
 TABLE
+    CAPTION
     THEAD 
         TR, TD, TH
     TBODY
@@ -42,6 +61,7 @@ TABLE
         TR, TD, TH
 -->
     <table>
+        <Caption>População das Unidades Federativas</Caption>
         <thead>
             <tr>
                 <th>Estado</th>
