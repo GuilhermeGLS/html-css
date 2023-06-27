@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    border: 1px solid black;
+    width: 97vw;
+    height: 69vh;
+    margin-left: 10px;
+    margin-top: 40px;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 1px black;
+}
+
+.pg1{
+    border: 1px solid black;
+    width: 30vw;
+    height: 60vh;
+    background-color: aquamarine;
+}
+
+.pg2{
+    display: flex;
+    background-color: cyan;
+    border: 1px solid black;
+    width: 30vw;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.pg4 {
+    background-color: #8f27db;
+    width: 20vw;
+    height: 10vh;
+}
+
+.pg5{
+    background-color: firebrick;
+    width: 20vw;
+    height: 20vh;
+}
+
+
+
+.pg3{
+    background-color: gold;
+    border: 1px solid black;
+    width: 30vw;
+    height: 60vh;
+}
